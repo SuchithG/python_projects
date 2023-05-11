@@ -22,3 +22,7 @@ print(e)
 #Hexadecimal datatypes
 f = 0XFF
 print(f)
+
+#Octa decimals datatypes
+g= 0O14
+print(g)
