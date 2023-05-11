@@ -26,3 +26,7 @@ print(f)
 #Octa decimals datatypes
 g= 0O14
 print(g)
+
+#Boolean datatypes
+f = True
+print(type(f))
