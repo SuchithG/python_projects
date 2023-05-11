@@ -19,3 +19,6 @@ print(type(d))
 e = 0B1010
 print(e)
 
+#Hexadecimal datatypes
+f = 0XFF
+print(f)
