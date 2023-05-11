@@ -15,3 +15,7 @@ print(type(x),type(y),type(z))
 d = (3 + 7j)
 print(type(d))
 
+#Binary datatypes
+e = 0B1010
+print(e)
+
