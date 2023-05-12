@@ -12,3 +12,7 @@ print(s1)
 print(s[2]) #Indexing
 
 print(s*2) #Repetition
+
+#Length function
+print(len(s))
+print(len(s1))
