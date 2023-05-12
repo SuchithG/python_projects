@@ -30,3 +30,7 @@ print(g)
 #Boolean datatypes
 f = True
 print(type(f))
+
+#Type Conversion
+h = int(x) 
+print(type(h))
