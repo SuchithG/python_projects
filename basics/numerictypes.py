@@ -37,3 +37,5 @@ print(type(h))
 
 i = float('22.5') #string to float
 print(type(i))
+
+print(bin(11)) # binary conversion
