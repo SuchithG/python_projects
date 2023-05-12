@@ -32,5 +32,8 @@ f = True
 print(type(f))
 
 #Type Conversion
-h = int(x) 
+h = int(x)  #float to int
 print(type(h))
+
+i = float('22.5') #string to float
+print(type(i))
