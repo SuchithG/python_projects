@@ -41,3 +41,12 @@ print(type(i))
 print(bin(11)) # binary conversion
 print(hex(11)) # hexadecimal conversion
 print(oct(11)) # octadecimal conversion
+
+#Identifiers
+
+userID = 123
+userId = 123
+user_ID = 123
+user_id_ = 123
+_userID = 123 #private
+__init__ = 123 # special/magic functions
