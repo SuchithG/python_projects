@@ -1,5 +1,5 @@
 # single line strings
-s = " you are awesome"
+s = "you are awesome"
 print(s)
 
 
@@ -16,3 +16,9 @@ print(s*2) #Repetition
 #Length function
 print(len(s))
 print(len(s1))
+
+#Slicing
+print(s[0:3])
+print(s[0:])
+print(s[:5])
+print(s[-3:-1])
