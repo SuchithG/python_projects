@@ -26,3 +26,9 @@ print(s[-3:-1])
 print(s[0:9:2]) # adding a step while indexing
 print(s[10::-1])
 print(s[::-1]) # starting index from the end
+
+# Strip the spaces
+u = " yes yes yes "
+print(u.strip()) # space removed at the beginning and end of the string
+print(u.lstrip()) # space removed at the beginning of the string
+print(u.rstrip()) # space removed at the right end of the string
