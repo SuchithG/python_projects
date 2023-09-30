@@ -30,8 +30,9 @@ print(g)
 #Boolean datatypes
 f = True
 print(type(f))
+print(9>8)
 
-#Type Conversion
+#Type Conversion functions
 h = int(x)  #float to int
 print(type(h))
 
