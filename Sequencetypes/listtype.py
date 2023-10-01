@@ -4,3 +4,7 @@ print(lst[2]) # Indexing
 print(lst[3:5]) # Slicing
 print(lst*2) # Repeating
 print(len(lst)) # Length
+
+# Dynamically adding or removing elements from a list\
+lst.append(40)
+print(lst)
