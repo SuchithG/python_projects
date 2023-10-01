@@ -10,3 +10,6 @@ lst.append(40)
 lst.remove("Suchith")
 del(lst[3]) # del function to remove elements using index
 print(lst)
+
+lst.clear() # Remove all elements from list
+print(lst)
