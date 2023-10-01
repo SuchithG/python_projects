@@ -9,5 +9,8 @@ print(s)
 s.remove(-79) # removes
 print(s)
 
+f = frozenset(s)
+f.update([20])
+
 
 
