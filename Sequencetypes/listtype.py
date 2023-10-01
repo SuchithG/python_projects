@@ -7,4 +7,5 @@ print(len(lst)) # Length
 
 # Dynamically adding or removing elements from a list\
 lst.append(40)
+lst.remove("Suchith")
 print(lst)
