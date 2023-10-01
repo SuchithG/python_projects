@@ -11,6 +11,8 @@ country_list.append("Brazil")
 
 del country_list[1]
 
+country_list.insert(2, "Germany")
+
 country_list = set(country_list)
 
 country_list.update(["France"])
