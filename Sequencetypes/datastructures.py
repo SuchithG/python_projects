@@ -1,3 +1,4 @@
+# Map of lists
 students = {'John':['Python','Kernel','Java'], 'bob':['Python','Java'], 'jim':['JavaScript','React']}
 keys = students.keys()
 course = students.values()
