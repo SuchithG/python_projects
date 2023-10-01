@@ -3,3 +3,4 @@ print(lst)
 print(lst[2]) # Indexing
 print(lst[3:5]) # Slicing
 print(lst*2) # Repeating
+print(len(lst)) # Length
