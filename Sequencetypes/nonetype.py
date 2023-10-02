@@ -5,4 +5,4 @@ def m1():
 print(m1())
 
 b = None
-print(b)
+print(type(b))
