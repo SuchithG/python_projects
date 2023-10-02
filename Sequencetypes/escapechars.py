@@ -11,3 +11,8 @@ print("Python is \\awesome\\ and cool")
 PI = 3.14 # caps variable name for defining constants 
 
 INTEREST_RATE = 7 
+
+a = 10;
+s = "yes"
+del s
+print(a)
