@@ -14,5 +14,5 @@ INTEREST_RATE = 7
 
 a = 10;
 s = "yes"
-del s
+del a
 print(a)
