@@ -7,3 +7,7 @@ print("Python is \"awesome and cool\" ")
 print("Python is 'awesome' and cool")
 
 print("Python is \\awesome\\ and cool")
+
+PI = 3.14 # caps variable name for defining constants 
+
+INTEREST_RATE = 7 
