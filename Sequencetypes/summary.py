@@ -19,3 +19,14 @@ ba=bytearray(b)
 ba = bytearray(lst)
 print(type(ba))
 
+range(20)
+range(1,10)
+print(1,30,3)
+
+t = (1,2,3,4,5,6,7,8,9,10)
+print(type(t))
+
+s = {1,2,3,4,5,5,6,7,7}
+print(s)
+print(type(s))
+
