@@ -30,3 +30,9 @@ s = {1,2,3,4,5,5,6,7,7}
 print(s)
 print(type(s))
 
+fs = frozenset(s)
+print(type(fs))
+
+d = {1:100,2:200,3:300}
+print(type(d))
+
