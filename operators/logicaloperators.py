@@ -4,3 +4,5 @@ y = 30
 print((x == 20 and y == 30))
 
 print((x == 25 and y == 30))
+
+print((x == 25 or y == 30))
