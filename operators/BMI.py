@@ -1,5 +1,5 @@
 height=5.9
-weight=89
+weight=79
 
 #bmi = weight in kg/(height in meters)
 
