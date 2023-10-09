@@ -11,3 +11,4 @@ name="John"
 marks=98.546
 
 print ("Name:",name,"Mark:",marks)
+print ("Name:%s, Marks:%.2f"%(name,marks))
