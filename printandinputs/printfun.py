@@ -14,3 +14,5 @@ print ("Name:",name,"Mark:",marks)
 print ("Name:%s, Marks:%.2f"%(name,marks))
 
 print("Name is {} and marks are {}".format(name, marks))
+
+print("Name is {0} and marks are {1}".format(name, marks))
