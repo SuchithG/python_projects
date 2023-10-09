@@ -6,3 +6,8 @@ print("All the power \n is within you!") # new line characters
 
 a,b = 10,20
 print(a,b, sep="+") # separator
+
+name="John"
+marks=98.546
+
+print ("Name:",name,"Mark:",marks)
