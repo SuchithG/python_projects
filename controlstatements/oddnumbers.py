@@ -1,3 +1,4 @@
+# Display all the odd numbers from a range of numbers from min to max.
 x = int(input("Enter the min value "))
 y = int(input("Enter the max value "))
 
