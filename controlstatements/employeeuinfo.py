@@ -8,7 +8,7 @@ for i in range(n):
     name = input('Enter employee name')
     salary = input('Enter employee salary')
     employees[name] = salary
-
+print('You can know the salary details by entering the name')
 while True:
     name = input('Enter employee name')
     salary = employees.get(name, -1)
