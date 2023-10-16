@@ -3,21 +3,19 @@
 num = input("Enter a number: ")
 if num.isnumeric():
     num = int(num)
-    if num < 2:
-        print("Not prime")
-    elif num == 2:
-        print("Prime")
-    elif num % 2 == 0:
-        print("Not prime")
+    primeFlag = True
+
+    if num <= 1:
+        primeFlag = False
     else:
-        is_prime = True
-        for i in range(3, int(num**0.5) + 1, 2):
+        for i in range(2, num):
             if num % i == 0:
-                is_prime = False
+                primeFlag = False
                 break
-        if is_prime:
-            print("Prime number")
-        else:
-            print("Not a prime number")
+
+    if primeFlag:
+        print(f"{num} is a prime number.")
+    else:
+        print(f"{num} is not a prime number.")
 else:
     print("Invalid input. Please enter a valid number.")
