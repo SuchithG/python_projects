@@ -16,6 +16,6 @@ while True:
         print("Employee does not exist")
     else:
         print("The salary of the employee is", salary)
-    choice = input('Do you want to know the salary of another employee[Yes|No]?')
-    if choice == 'No':
+    choice = input('Do you want to know the salary of another employee[Yes|No]')
+    if choice == 'No' or 'no':
         break
