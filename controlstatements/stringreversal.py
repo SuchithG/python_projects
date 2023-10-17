@@ -3,6 +3,7 @@
 s = input("Enter a string: ")
 print(s[::-1])
 '''
+'''
 
 s = input("Enter a string: ")
 i = len(s) - 1
@@ -11,3 +12,8 @@ while i >= 0:
     result = result + s[i]
     i = i-1
 print(result)
+'''
+
+# using join method
+s = input("Enter a string: ")
+print(''.join(reversed(s)))
