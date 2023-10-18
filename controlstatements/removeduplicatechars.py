@@ -1,3 +1,4 @@
+# Remove the duplicate chars
 s = 'abcddeeffgghizyxxz'
 temp = []
 for c in s:
