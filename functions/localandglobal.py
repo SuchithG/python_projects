@@ -9,4 +9,5 @@ def display():
     print(globals()['x']) 
 
 print(x)
-display()
+z = display # Assigns a function to a variable and invoking it 
+z()
