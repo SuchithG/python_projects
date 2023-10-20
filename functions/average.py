@@ -8,3 +8,10 @@ def average(a, b):
 
 
 print(average(b=10, a=20)) # passing keyword argument
+
+# default arguments
+
+def avg(a=2,b=3):
+    return (a-b)/2
+
+print(avg())
