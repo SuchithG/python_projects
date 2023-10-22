@@ -1,0 +1,1 @@
+# using filter retrieve only even numbers from a given list
