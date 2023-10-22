@@ -1,0 +1,1 @@
+# Create a lambda that will return YES if the given number is even and NO if the given number is odd
