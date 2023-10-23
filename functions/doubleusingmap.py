@@ -1,0 +1,1 @@
+# Using the map function double the value of each element in the list
