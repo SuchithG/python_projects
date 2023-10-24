@@ -1,4 +1,4 @@
-import keyword 
+import keyword  # module has all the keyword information
 
 print(keyword.kwlist)
 
