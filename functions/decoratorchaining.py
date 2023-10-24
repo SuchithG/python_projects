@@ -10,7 +10,7 @@ def half(fun):
         return n/2
     return inner
 
-@square
+@square # decorate a function named first with another function name second 
 @half
 def num():
     return 10
