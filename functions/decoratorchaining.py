@@ -15,3 +15,5 @@ def half(fun):
 def num():
     return 10
 
+result = num()
+print(result)
