@@ -1,6 +1,8 @@
 #import mymath 
-import mymath as ma # alias name
+#import mymath as ma # alias name
+from mymath import *
 
-print(ma.sum(10, 5))
 
-print(ma.diff(10, 5))
+print(sum(10, 5))
+
+print(diff(10, 5))
