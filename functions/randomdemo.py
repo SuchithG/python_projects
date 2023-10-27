@@ -11,3 +11,9 @@ for i in range(10): # for range 10 random numbers
 
 for i in range(10): # for range 10 random numbers
     print(randrange(1,12,2)) # start , stop and step
+
+# dynamically define a list , and pick random numbers from it
+
+list = ["java", "python", "C++", "Devops", "aws"]
+for i in range(10):
+    print(choice(list)) # passing a sequence using choice function
