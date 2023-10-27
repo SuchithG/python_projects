@@ -12,7 +12,7 @@ for i in range(10): # for range 10 random numbers
 for i in range(10): # for range 10 random numbers
     print(randrange(1,12,2)) # start , stop and step
 
-# dynamically define a list , and pick random numbers from it
+# dynamically define a list , and pick random from it
 
 list = ["java", "python", "C++", "Devops", "aws"]
 for i in range(10):
