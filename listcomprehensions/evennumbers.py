@@ -4,3 +4,6 @@ lst = [x for x in range(2,21,2)] # even numbers using range and list comprehensi
 print(lst)
 
 """
+
+lst = [x for x in range(2,21) if x%2 == 0] 
+print(lst)
