@@ -14,7 +14,7 @@ class Course:
 c1 = Course("Java Course", [1,2,3,4,5])
 print(c1.name)
 print(c1.ratings)
-c1.average()
+c1.average() # Invoking the instance method using objectS
 
 c2 = Course("Java web services", [5,5,5,5,5])
 print(c2.name)
