@@ -8,3 +8,9 @@ class Car:
     class Engine:
         def __init__(self, number):
             self.number = number
+        def start(self):
+            print("Engine Started")
+
+c = Car("BMW", 2017)
+e = c.Engine(123)
+e.start() # instance
