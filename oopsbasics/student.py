@@ -13,3 +13,4 @@ print(s1.major) # Static field
 print(s2.major) # Static field
 print(s1.name)
 print(s2.name)
+print(Student.major)
