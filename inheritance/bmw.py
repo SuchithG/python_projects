@@ -11,10 +11,10 @@ class BMW:
     def stop(self):
         print("Stopping the car")
 
-class ThreeSeries:
+class ThreeSeries(BMW):
 
     def __init__(self, curiseControlEnabled, make, model, year):
-        BMW.__init__(self, make, model, year)
+        super().__init__(make, model, year)
         self.curiseControlEnabled = curiseControlEnabled
 
     def display(self):
@@ -23,7 +23,7 @@ class ThreeSeries:
 class FiveSeries:
 
     def __init__(self, parkingAssistEnabled, make, model, year):
-        BMW.__init__(self, make, model, year)
+        super().__init__(self, make, model, year)
         self.parkingAssistEnabled = parkingAssistEnabled
 
 threeSeries = ThreeSeries(True, "BMW", "328i", "2018")
