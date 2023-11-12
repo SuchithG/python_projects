@@ -20,6 +20,9 @@ class ThreeSeries(BMW):
     def display(self):
         print(self.curiseControlEnabled)
 
+    def start(self):
+        print("Button start")
+
 class FiveSeries(BMW):
 
     def __init__(self, parkingAssistEnabled, make, model, year):
