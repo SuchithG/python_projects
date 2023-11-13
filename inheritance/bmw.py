@@ -30,14 +30,14 @@ class FiveSeries(BMW):
         super().__init__(make, model, year)
         self.parkingAssistEnabled = parkingAssistEnabled
 
-threeSeries = ThreeSeries(True, "BMW", "328i", "2018")
-print(threeSeries.curiseControlEnabled)
-print(threeSeries.make)
-print(threeSeries.model)
-print(threeSeries.year)
+bmw = ThreeSeries(True, "BMW", "328i", "2018")
+print(bmw.curiseControlEnabled)
+print(bmw.make)
+print(bmw.model)
+print(bmw.year)
 
-threeSeries.start()
-threeSeries.stop()
-threeSeries.display()
+bmw.start()
+bmw.stop()
+bmw.display()
 
 
