@@ -6,6 +6,6 @@ print("Enter Text (Type # when you are done)")
 s =''
 while s != '#':
     s = input()
-    f.write(s)
+    f.write(s+"\n") # new line
 
 f.close()
