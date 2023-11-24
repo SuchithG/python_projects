@@ -1,6 +1,6 @@
 f = open('sample.txt', 'r')
 
-print(f.read())
+print(f.read(12))
 
 f.seek(0) # file cursor to beginning or any position
 print(f.readline())
