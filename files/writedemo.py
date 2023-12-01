@@ -6,3 +6,4 @@ print('Cursor is at ', f.tell())
 f.seek(0) # cursor will move to the beginning of the file
 print('Cursor is at ', f.tell())
 print(f.read())  # Read the contents of the file
+f.close()
