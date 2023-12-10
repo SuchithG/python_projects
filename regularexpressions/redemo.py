@@ -6,3 +6,6 @@ print(result.group())
 
 result = re.findall(r'o\w\w',str)
 print(result)
+
+result = re.match(r'T\w\w',str)
+print(result.group())
