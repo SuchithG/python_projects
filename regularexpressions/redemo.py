@@ -1,5 +1,8 @@
 import re 
 
-str = "Take up one idea.One idea at a time"
+str = "Take up one idea.one idea at a time"
 result = re.search(r'o\w\w',str)
 print(result.group())
+
+result = re.findall(r'o\w\w',str)
+print(result)
