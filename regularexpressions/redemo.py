@@ -21,5 +21,6 @@ result = re.split(r'\d+',str)
 print(result)
 
 result = re.findall(r'O\w+',str) # print one or more characters, starting with the preceding alphabet
+result = re.findall(r'O\w*',str) # Zero or more characters after O
 print(result)
 
