@@ -9,3 +9,6 @@ print(result)
 
 result = re.match(r'T\w\w',str)
 print(result.group())
+
+result = re.sub(r'one','two',str)
+print(result)
