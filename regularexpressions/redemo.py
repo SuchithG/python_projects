@@ -29,6 +29,6 @@ print(result)
 result = re.findall(r'\d{2}-\d{2}-\d{4}',str)
 print(result)
 
-result = re.search(r'^T\w',str) # regular expression must be in the beginning of the string
+result = re.search(r'^T\w*',str) # regular expression must be in the beginning of the string
 print(result.group())
 
