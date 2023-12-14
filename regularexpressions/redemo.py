@@ -1,6 +1,6 @@
 import re 
 
-str = "Take up one idea.one idea at a time"
+str = "Take 1 up one 23 idea.one idea 45 at a time"
 result = re.search(r'o\w\w',str)
 print(result.group())
 
@@ -12,3 +12,7 @@ print(result.group())
 
 result = re.sub(r'one','two',str)
 print(result)
+
+result = re.findall(r'o\w{1,2}',str)
+print(result)
+
