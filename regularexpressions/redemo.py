@@ -16,3 +16,6 @@ print(result)
 result = re.findall(r'o\w{1,2}',str)
 print(result)
 
+result = re.split(r'\d+',str)
+print(result)
+
