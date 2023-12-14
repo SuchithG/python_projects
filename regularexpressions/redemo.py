@@ -23,6 +23,6 @@ print(result)
 result = re.findall(r'O\w+',str) # print one or more characters, starting with the preceding alphabet
 result = re.findall(r'O\w*',str) # Zero or more characters after O
 result = re.findall(r'O\w?',str) # Zero or 1 after O
-result = re.findall(r'O\w{2}',str) # specify the number of characters
+result = re.findall(r'O\w{1,2}',str) # specify the number of characters
 print(result)
 
